@@ -5,7 +5,7 @@
 
 #include "TreeShits.h"
 
-struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
+struct TreeNode* lowestCommonAncestor2(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
 	struct TreeNode* cur=root;
 	do{
 		if(p->val <cur->val && q->val <cur->val){

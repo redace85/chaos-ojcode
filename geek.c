@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 int main()
 {
     if (sizeof(int) > -1)
